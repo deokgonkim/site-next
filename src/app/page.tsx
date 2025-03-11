@@ -2,7 +2,7 @@ import { List, ListItem, Typography } from "@mui/material";
 import Image from "next/image";
 import Link from "next/link";
 
-export const getVersion = async () => {
+const getVersion = async () => {
   // const version = await fetch("https://public-api.dgkim.net/version").then((response) => response.text());
   // console.log('version:', version);
   // get version from package.json
