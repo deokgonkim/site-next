@@ -6,7 +6,8 @@ const getVersion = async () => {
   // const version = await fetch("https://public-api.dgkim.net/version").then((response) => response.text());
   // console.log('version:', version);
   // get version from package.json
-  const version = process.env.npm_package_version;
+  // const version = process.env.npm_package_version;
+  const version = "feature1";
   return version;
 }
 
